@@ -47,3 +47,26 @@ A visual diagram of the architecture is included in the repository.
 ---
 
 ## Project Structure
+
+
+---
+
+## Dataset
+A custom dataset of **10,000 images** was used:
+
+- **5,000 real images**
+- **5,000 fake images**
+
+Images were preprocessed to **256 × 256 × 3** and normalized.  
+Dataset split: **80% training** and **20% testing**.
+
+> *(Note: Due to size and copyright, the dataset is not included in this repository.)*
+
+---
+
+## Training
+Run the training script:
+
+```bash
+python train.py
+
