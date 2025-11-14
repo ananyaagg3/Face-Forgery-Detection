@@ -17,13 +17,13 @@ By fusing both domains, the model improves robustness against modern deepfake ge
 ---
 
 ## Key Features
-✔ Hybrid deepfake detection (Spatial + Frequency)  
-✔ FaceXRayHRNet backbone for spatial artifact extraction  
-✔ FFT-based frequency feature extraction  
-✔ Feature fusion with fully connected classification  
-✔ Training + evaluation pipeline included  
-✔ Clean modular code structure  
-✔ Supports custom datasets of real and fake images
+- Hybrid deepfake detection (Spatial + Frequency)  
+- FaceXRayHRNet backbone for spatial artifact extraction  
+- FFT-based frequency feature extraction  
+- Feature fusion with fully connected classification  
+- Training + evaluation pipeline included  
+- Clean modular code structure  
+- Supports custom datasets of real and fake images
 
 ---
 
