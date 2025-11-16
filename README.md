@@ -47,15 +47,16 @@ A visual diagram of the architecture is included in the repository.
 ---
 
 ## Project Structure
+```text
 .
-├── HybridXRayModel.py # Hybrid model (Spatial + Frequency)
-├── FaceXRayHRNet.py # CNN architecture for spatial features
-├── fft_features.py # Frequency domain extraction
-├── train.py # Training and evaluation script
-├── evaluate_model.py # Model evaluation utilities
-├── dataset/
-│ ├── real/ # Real face images
-│ └── fake/ # Fake face images
+├── HybridXRayModel.py       # Hybrid model (Spatial + Frequency)
+├── FaceXRayHRNet.py         # CNN architecture for spatial features
+├── fft_features.py          # Frequency domain extraction
+├── train.py                 # Training and evaluation script
+├── evaluate_model.py        # Model evaluation utilities
+├── dataset/                 
+│   ├── real/                # Real face images
+│   └── fake/                # Fake face images
 └── README.md
 
 ---
@@ -69,6 +70,7 @@ A custom dataset of **10,000 images** was used:
 Images were preprocessed to **256 × 256 × 3** and normalized.  
 Dataset split: **80% training** and **20% testing**.
 
+> *(Note: Due to size and copyright, the dataset is not included in this repository.)*
 
 ---
 
@@ -77,4 +79,3 @@ Run the training script:
 
 ```bash
 python train.py
-
