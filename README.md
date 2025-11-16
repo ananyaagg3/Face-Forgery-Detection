@@ -59,6 +59,7 @@ A visual diagram of the architecture is included in the repository.
 │   └── fake/                # Fake face images
 └── README.md
 
+```
 ---
 
 ## Dataset
