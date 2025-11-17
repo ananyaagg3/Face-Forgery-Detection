@@ -79,3 +79,19 @@ Run the training script:
 
 ```bash
 python train.py
+```
+---
+
+## Evaluation
+Evaluation is automatically performed at the end of training and includes:
+- Accuracy
+- Loss
+- Confusion matrix
+- Generalization performance across real and fake samples
+
+---
+
+## Author
+
+Ananya Aggarwal & Harshita Yadav
+Face Forgery Detection – Research Project
